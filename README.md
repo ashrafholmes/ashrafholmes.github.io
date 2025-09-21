@@ -10,6 +10,6 @@ I am learning web development
 
 ```python
 html for now
-css for too
+css too
 javascript after I finish this both
 ```
