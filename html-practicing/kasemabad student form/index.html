@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasemabad Madrasha Student form</title>
+    <meta name="author" content="kasemadbad siddiqia kamil madrasha">
+</head>
+
+<body>
+    <header>
+        <h1>Alim 2<sup>nd</sup> Year Science Students Info Form</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Fill the form with your appropriate info</h2>
+        <br>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Student Info</legend>
+                <p>
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name" required
+                        autocomplete="on" autofocus>
+                </p>
+                <p>
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="last Name" required autocomplete="on"
+                        autofocus>
+                </p>
+                <p>
+                    <label for="roll">Roll:</label>
+                    <input type="number" name="roll" id="roll" placeholder="Your Roll" required autocomplete="on"
+                        pattern="[0-9]{6}">
+                </p>
+                <p>
+                    <label for="reg">Regestration Number:</label>
+                    <input type="number" name="reg" id="reg" placeholder="Your Regestration Number" required
+                        autocomplete="on" pattern="[0-9]{10}">
+                </p>
+                <p>
+                    <label for="phone">Phone Number: +88</label>
+                    <input type="number" name="phone" id="phone" placeholder="Your Mobile Phone Number" required
+                        autocomplete="on" pattern="[0-9]{11}">
+                </p>
+                <br>
+                <p>Select Your Gender:</p>
+                <p>
+                    <label for="genMale">Male</label>
+                    <input type="radio" name="genMale" id="genMale">
+                </p>
+                <p>
+                    <label for="genFemale">Female</label>
+                    <input type="radio" name="genFemale" id="genFemale">
+                </p>
+                <br>
+                <p>Select Your Favorite Subjects</p>
+                <p>
+                    <label for="bangla">Bangla</label>
+                    <input type="checkbox" name="bangla" id="bangla">
+                </p>
+                <p>
+                    <label for="english">English</label>
+                    <input type="checkbox" name="english" id="english">
+                </p>
+                <p>
+                    <label for="math">Math</label>
+                    <input type="checkbox" name="math" id="math">
+                </p>
+                <p>
+                    <label for="chemistry">Chemistry</label>
+                    <input type="checkbox" name="chemistry" id="chemistry">
+                </p>
+                <p>
+                    <label for="physics">Physics</label>
+                    <input type="checkbox" name="physics" id="physics">
+                </p>
+                <p>
+                    <label for="biology">Biology</label>
+                    <input type="checkbox" name="biology" id="biology">
+                </p>
+                <p>
+                    <label for="arabic">Arabic</label>
+                    <input type="checkbox" name="arabic" id="arabic">
+                </p>
+                <p>
+                    <label for="quran">Quran</label>
+                    <input type="checkbox" name="quran" id="quran">
+                </p>
+                <p>
+                    <label for="hadith">Hadith</label>
+                    <input type="checkbox" name="hadith" id="hadith">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Parents Info</legend>
+                <p>
+                    <label for="fatherName">Father's Name:</label>
+                    <input type="text" name="fatherName" id="fatherName" required placeholder="Your Father's Name">
+                </p>
+                <p>
+                    <label for="fatherPhone">Fathers Phone Number: +88</label>
+                    <input type="number" name="fatherPhone" id="fatherPhone" required
+                        placeholder="Your Father's Phone Number" pattern="[0-9]{11}">
+                </p>
+                <p>
+                    <label for="motherName">Mother's Name:</label>
+                    <input type="text" name="motherName" id="motherName" required placeholder="Your Mother's Name">
+                </p>
+                <p>
+                    <label for="motherPhone">Mothers Pone Number: +88</label>
+                    <input type="number" name="motherPhone" id="motherPhone" required
+                        placeholder="Your Mother's Phone Number" pattern="[0-9]{11}">
+                </p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <br>
+        <a href="#">Back to Top</a>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy;<a href="about.html">Kashemabad Siddiqia Kamil Madrasha</a></p>
+    </footer>
+</body>
+
+</html>
